@@ -29,7 +29,7 @@
 
 extern crate cast;
 extern crate cortex_m;
-extern crate embedded_hal as hal;
+pub extern crate embedded_hal as hal;
 extern crate nb;
 pub extern crate stm32f30x;
 extern crate void;

@@ -28,7 +28,7 @@
 #![no_std]
 
 extern crate cast;
-extern crate cortex_m;
+pub extern crate cortex_m;
 pub extern crate embedded_hal as hal;
 extern crate nb;
 pub extern crate stm32f30x;
